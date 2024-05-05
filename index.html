@@ -25,12 +25,12 @@
                     <fieldset class="child-info">
                         <legend>Informações da criança</legend>
 
-                        <div class="input-wapper">
+                        <div class="input-wrapper">
                             <label for="fullname">Nome completo</label>
                             <input id="fullname" name="fullname" type="text" placeholder="Qual o nome da criança">
                         </div>
 
-                        <div class="input-wapper">
+                        <div class="input-wrapper">
                             <label for="birth">Data de nascimento</label>
                             <input id="birth" name="birth" type="date" lang="pt-BR">
                         </div>
@@ -59,6 +59,39 @@
                                     <path d="M24 26V42M24 26C22.5996 26 19.9831 29.9886 19 31M24 26C25.4004 26 28.017 29.9886 29 31" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>                                    
                                 <p>Clique aqui para <br> selecionar os arquivos</p>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="address">
+                        <legend>Endereço residencial</legend>
+
+                        <div class="input-wrapper">
+                            <label for="cep">CEP</label>
+                            <input id="cep" name="cep" type="text">
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-2">
+                                <label for="rua">Rua</label>
+                                <input id="rua" name="rua" type="text" value="Rua das Flores" disabled>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="numero">Número</label>
+                                <input id="numero" name="numero" type="text">
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-2">
+                                <label for="cidade">Cidade</label>
+                                <input id="cidade" name="cidade" type="text" value="São Paulo" disabled>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="estado">Estado</label>
+                                <input id="estado" name="estado" type="text" value="SP" disabled>
                             </div>
                         </div>
                     </fieldset>
